@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgba(103,124,231), rgba(116,80,168));
+}
+#form{
+    width: 42%;
+    margin: 6% auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: -2px 0px 13px 1px rgb(60 58 58);
+}
+#form h1{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+#form .form_item{
+    width: 100%;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#form .form_item label{
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+}
+#form .form_item input{
+    height: 30px;
+    padding: 5px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+}
+#gender p{
+    display: inline;
+    margin-right: 24px;
+    font-size: large;
+    font-weight: bold;
+}
+#gender label{
+    margin-right: 10px;
+}
+#btn{
+    margin-top: 30px;
+}
+.cancel_btn{
+    background-color: rgb(246, 45, 10);
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+.submit_btn{
+    background-image: linear-gradient(to right, rgba(103,124,231), rgba(116,80,168));
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin: 0px 10px;
+}
