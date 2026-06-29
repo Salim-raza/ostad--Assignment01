@@ -42,8 +42,7 @@ function calculateResult($marks) {
     return "Total Marks: $totalMarks\nAverage Marks: $averageMarks\nGrade: $grade";
 }
 
-// Example marks input for 5 subjects
-$marks = [50, 70, 85, 90, 40]; // Modify this array with the student's actual marks
+$marks = [50, 70, 85, 90, 40]; 
 
 // Output result
 echo calculateResult($marks);
